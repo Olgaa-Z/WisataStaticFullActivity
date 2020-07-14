@@ -15,6 +15,7 @@ class GaleriAdapter (url:Array<String>,context: Context): RecyclerView.Adapter<G
 
     var context: Context
     var url:Array<String>
+
     init {
         this.context=context
         this.url=url
