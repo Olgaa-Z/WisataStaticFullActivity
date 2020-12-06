@@ -3,6 +3,7 @@ package com.belajar.wisata
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.belajar.wisata.news.News
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -32,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         galeriwisata.setOnClickListener {
-            val intent = Intent(this, GaleriWisata::class.java)
+            val intent = Intent(this, News::class.java)
             startActivity(intent)
         }
 

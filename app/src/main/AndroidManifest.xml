@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.belajar.wisata">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -13,22 +14,38 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".GaleriAdapter" />
-        <activity android:name=".GaleriWisata"
-            android:label="Galeri">
+        <activity android:name=".news.DetailNews"
+            android:label="Detail News"
+            android:parentActivityName=".MainActivity">
+
         </activity>
-        <activity android:name=".Tentang" />
+        <activity android:name=".news.NewsAdapter"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".news.News"
+            android:label="News Wisata"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".GaleriWisata"
+            android:label="Galeri" />
+        <activity android:name=".Tentang"
+            android:label="About"
+            android:parentActivityName=".MainActivity"/>
         <activity android:name=".VideoWisata" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyAYmbOhDRWXLw3Oj4XxtC13RSZkMZ9QIw4" />
 
-        <activity android:name=".LokasiWisata" />
+        <activity android:name=".LokasiWisata"
+            android:label="Lokasi Wisata"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".Portalwisata"
-            android:label="Website Wisata NTT" />
-        <activity android:name=".ProfilWisata" />
+            android:label="Website Wisata NTT"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".ProfilWisata"
+            android:label="Profil Wisata"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".SplashScreen"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">

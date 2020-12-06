@@ -6,11 +6,12 @@
     android:background="@color/white"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".MainActivity">
 
     <LinearLayout
         android:id="@+id/lin1"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="100dp"
         android:layout_centerHorizontal="true"
         android:orientation="horizontal"
         android:layout_width="wrap_content"
@@ -42,7 +43,7 @@
             android:layout_height="wrap_content">
             <ImageView
                 android:id="@+id/portalwisata"
-                android:src="@drawable/portal"
+                android:src="@drawable/web"
                 android:layout_width="100dp"
                 android:layout_height="100dp">
             </ImageView>
@@ -92,7 +93,7 @@
             android:layout_height="wrap_content">
             <ImageView
                 android:id="@+id/videowisata"
-                android:src="@drawable/vi"
+                android:src="@drawable/videp"
                 android:layout_width="100dp"
                 android:layout_height="100dp">
             </ImageView>
@@ -125,12 +126,14 @@
                 android:id="@+id/galeriwisata"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:src="@drawable/e"></ImageView>
+                android:src="@drawable/berita">
+
+            </ImageView>
 
             <TextView
                 android:textSize="20dp"
                 android:textColor="@color/black"
-                android:text="Galeri Wisata"
+                android:text="News Wisata"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
             </TextView>
@@ -143,7 +146,7 @@
             android:layout_height="wrap_content">
             <ImageView
                 android:id="@+id/tentang"
-                android:src="@drawable/i"
+                android:src="@drawable/info"
                 android:layout_width="100dp"
                 android:layout_height="100dp">
             </ImageView>

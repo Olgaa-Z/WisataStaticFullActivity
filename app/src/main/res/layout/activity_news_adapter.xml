@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F4F7F9"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="-15dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/iv_utama_gambar"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="10dp"
+            android:id="@+id/linear_utama"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:orientation="vertical"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Judul"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:id="@+id/tv_utama_judul"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="bottom"
+                android:text="Isi"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:id="@+id/tv_utama_isi"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:singleLine="true"
+                android:gravity="bottom"
+                android:id="@+id/tv_utama_tanggal"
+                android:text="tanggal"
+                android:maxLines="1"
+                android:textSize="12dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
