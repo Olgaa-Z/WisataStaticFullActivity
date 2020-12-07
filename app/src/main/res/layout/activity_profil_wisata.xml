@@ -40,5 +40,12 @@
             android:text="@string/isiprofil"
             android:id="@+id/penjelasan"
             android:padding="15dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="@string/isiprofil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </com.codesgood.views.JustifiedTextView>
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>

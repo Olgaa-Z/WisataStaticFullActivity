@@ -10,4 +10,17 @@ Tak cukup sehari untuk menyusuri keindahan daerah yang terdiri dari 550 pulau in
 
 Banyak tempat-tempat indah bisa kita eksplor di Nusa Tenggara Timur yang dijamin akan membuat Anda betah. Apa saja tempat-tempat indah tersebut. Berikut Bang Mamad pilihkan untuk Anda.
     </string>
+
+    <string name="hello">
+<![CDATA[
+<html>
+ <head></head>
+ <body style="text-align:justify;">
+  Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur
+  adipiscing elit. Nunc pellentesque, urnaLorem ipsum dolor sit amet, consectetur
+  nec hendrerit pellentesque, risus massaLorem ipsum dolor sit amet, consectetur
+ </body>
+</html>
+]]>
+</string>
 </resources>
